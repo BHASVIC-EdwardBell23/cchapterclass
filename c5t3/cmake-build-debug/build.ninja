@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: c5t2
+# Project: c5t3
 # Configurations: Debug
 # =============================================================================
 
@@ -39,57 +39,57 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/edward.bell23/cchapterclass/c5t2/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target c5t2
-
-
-#############################################
-# Order-only phony target for c5t2
-
-build cmake_object_order_depends_target_c5t2: phony || CMakeFiles/c5t2.dir
-
-build CMakeFiles/c5t2.dir/main.c.obj: C_COMPILER__c5t2_Debug C$:/Users/edward.bell23/cchapterclass/c5t2/main.c || cmake_object_order_depends_target_c5t2
-  DEP_FILE = CMakeFiles\c5t2.dir\main.c.obj.d
-  FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\c5t2.dir
-  OBJECT_FILE_DIR = CMakeFiles\c5t2.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target c5t2
-
-
-#############################################
-# Link the executable c5t2.exe
-
-build c5t2.exe: C_EXECUTABLE_LINKER__c5t2_Debug CMakeFiles/c5t2.dir/main.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\c5t2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = c5t2.exe
-  TARGET_IMPLIB = libc5t2.dll.a
-  TARGET_PDB = c5t2.exe.dbg
-
+cmake_ninja_workdir = C$:/Users/edward.bell23/cchapterclass/c5t3/cmake-build-debug/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\edward.bell23\cchapterclass\c5t2\cmake-build-debug && "C:\Program Files (x86)\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\edward.bell23\cchapterclass\c5t3\cmake-build-debug && "C:\Program Files (x86)\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
+# Object build statements for EXECUTABLE target c5t3
+
+
+#############################################
+# Order-only phony target for c5t3
+
+build cmake_object_order_depends_target_c5t3: phony || CMakeFiles/c5t3.dir
+
+build CMakeFiles/c5t3.dir/main.c.obj: C_COMPILER__c5t3_Debug C$:/Users/edward.bell23/cchapterclass/c5t3/main.c || cmake_object_order_depends_target_c5t3
+  DEP_FILE = CMakeFiles\c5t3.dir\main.c.obj.d
+  FLAGS = -g -std=gnu99
+  OBJECT_DIR = CMakeFiles\c5t3.dir
+  OBJECT_FILE_DIR = CMakeFiles\c5t3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c5t3
+
+
+#############################################
+# Link the executable c5t3.exe
+
+build c5t3.exe: C_EXECUTABLE_LINKER__c5t3_Debug CMakeFiles/c5t3.dir/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\c5t3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c5t3.exe
+  TARGET_IMPLIB = libc5t3.dll.a
+  TARGET_PDB = c5t3.exe.dbg
 
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\edward.bell23\cchapterclass\c5t2\cmake-build-debug && "C:\Program Files (x86)\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\edward.bell23\cchapterclass\c5t2 -BC:\Users\edward.bell23\cchapterclass\c5t2\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\edward.bell23\cchapterclass\c5t3\cmake-build-debug && "C:\Program Files (x86)\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\edward.bell23\cchapterclass\c5t3 -BC:\Users\edward.bell23\cchapterclass\c5t3\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build c5t2: phony c5t2.exe
+build c5t3: phony c5t3.exe
 
 # =============================================================================
 # Folder targets.
@@ -107,9 +107,9 @@ build c5t2: phony c5t2.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/edward.bell23/cchapterclass/c5t2/cmake-build-debug
+# Folder: C:/Users/edward.bell23/cchapterclass/c5t3/cmake-build-debug
 
-build all: phony c5t2.exe
+build all: phony c5t3.exe
 
 # =============================================================================
 # Built-in targets
